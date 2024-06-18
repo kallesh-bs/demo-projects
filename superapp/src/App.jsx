@@ -1,14 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import Index from './components/apps/Index';
+import MovieFinder from './components/apps/MovieFinder'
+import { Route, BrowserRouter as Routers, Routes } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>Hello</div>
+      <Routers>
+        <Routes>
+          <Route path='/' element={<Index />} />
+          <Route path='/movie-finder' element={<MovieFinder />} />
+        </Routes>
+      </Routers>
     </>
   )
 }
