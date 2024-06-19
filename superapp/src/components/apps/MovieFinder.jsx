@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import AppName from '../AppName';
 import axios from "axios";
+import { Link } from "react-router-dom"
 
 export default function MovieFinder() {
     const [data, setData] = useState([]);
@@ -32,7 +33,7 @@ export default function MovieFinder() {
     return (
         <>
             <div>
-                <AppName appname={"Movie Finder"} />
+                <AppName appname={"Movie Finder"} /> 
             </div>
             <div>
                 <input type="text" ref={inputRef} />

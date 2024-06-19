@@ -7,6 +7,9 @@ export default function TodoApp() {
             <div>
                 <AppName appname={"ToDo App"} />
             </div>
+            <div>
+                
+            </div>
         </>
     )
 }
