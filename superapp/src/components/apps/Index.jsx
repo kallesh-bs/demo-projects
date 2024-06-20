@@ -11,7 +11,7 @@ export default function Index() {
                 <Link to="/bank-details">Bank Details</Link> <br /> <br />
                 <Link to="/todo-app">ToDo App</Link> <br /> <br />
                 <Link to="/github-account-finder">GitHub Account Finder</Link> <br /> <br />
-                <Link to="/"></Link> <br /> <br />
+                <Link to="/weather-details">Weather Details</Link> <br /> <br />
             </div>
         </>
     )

@@ -6,6 +6,7 @@ import Index from './components/apps/Index';
 import MovieFinder from './components/apps/MovieFinder'
 import TodoApp from './components/apps/TodoApp'
 import { Route, BrowserRouter as Routers, Routes } from "react-router-dom";
+import WeatherDetails from './components/apps/WeatherDetails';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path='/bank-details' element={<BankDetails />} />
           <Route path='/todo-app' element={<TodoApp />} />
           <Route path='/github-account-finder' element={<GitHubAccountFinder />} />
+          <Route path='/weather-details' element={<WeatherDetails />} />
         </Routes>
       </Routers>
     </>
