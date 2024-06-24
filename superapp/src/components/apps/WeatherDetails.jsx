@@ -12,7 +12,7 @@ export default function WeatherDetails() {
     const [wId, setWId] = useState(0);
     const [displayMessage, setDisplayMessage] = useState("Enter City Name and Search to see Weather Details")
     let inpRef = useRef();
-    let apiKey = "0c8bba021cc0d5fb5098f7b227cbcc6dx"
+    let apiKey = "0c8bba021cc0d5fb5098f7b227cbcc6dx "
 
     async function fetchData(city) {
         axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`)
